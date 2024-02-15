@@ -1,4 +1,4 @@
-const baseUrl = "https://api1.anime-dex.workers.dev/anime/gogoanime";
+const baseUrl = "https://anime-sensei-api.vercel.app/anime/gogoanime";
 
 export const makeRequest = async (endpoint, config) => {
     const url = `${baseUrl}${endpoint}`;
